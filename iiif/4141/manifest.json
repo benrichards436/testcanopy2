@@ -1,0 +1,83 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://benrichards436.github.io/testcanopy/4141/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Weasels Ripped My Flesh"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "Creator"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Mothers of Invention"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://benrichards436.github.io/testcanopy/4141/d3e45899a2a27daea7f103f2fbb3bb91/full/300,300/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 300
+        }
+    ],
+    "items": [
+        {
+            "id": "https://benrichards436.github.io/testcanopy/4141/canvas/1",
+            "type": "Canvas",
+            "height": 1024,
+            "width": 1024,
+            "label": {
+                "none": [
+                    "The-Mothers-Of-Invention-Weasels-Ripped-My-Flesh-1024x1024"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://benrichards436.github.io/testcanopy/4141/d3e45899a2a27daea7f103f2fbb3bb91/full/300,300/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 300,
+                    "width": 300
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://benrichards436.github.io/testcanopy/4141/canvas/1/annopage-1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://benrichards436.github.io/testcanopy/4141/canvas/1/annopage-1/anno-1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://benrichards436.github.io/testcanopy/4141/canvas/1",
+                            "body": {
+                                "id": "https://benrichards436.github.io/testcanopy/4141/d3e45899a2a27daea7f103f2fbb3bb91/full/1024,1024/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "width": 1024,
+                                "service": [
+                                    {
+                                        "id": "https://benrichards436.github.io/testcanopy/4141/d3e45899a2a27daea7f103f2fbb3bb91",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

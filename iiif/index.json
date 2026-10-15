@@ -1,0 +1,66 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://benrichards436.github.io/testcanopy/index.json",
+    "type": "Collection",
+    "label": {
+        "none": [
+            "My IIIF Collection"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "https://benrichards436.github.io/testcanopy/5151/d4d89bc4968feb9ba0ee7c5dd251667e/full/300,300/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 300
+        }
+    ],
+    "items": [
+        {
+            "id": "https://benrichards436.github.io/testcanopy/5151/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Andy Warhol"
+                ]
+            }
+        },
+        {
+            "id": "https://benrichards436.github.io/testcanopy/123123/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Beatles-Sgt-Pepper-Cover-1024x1024"
+                ]
+            }
+        },
+        {
+            "id": "https://benrichards436.github.io/testcanopy/312312/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Purple Rain"
+                ]
+            }
+        },
+        {
+            "id": "https://benrichards436.github.io/testcanopy/313/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Self Titled"
+                ]
+            }
+        },
+        {
+            "id": "https://benrichards436.github.io/testcanopy/4141/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Weasels Ripped My Flesh"
+                ]
+            }
+        }
+    ]
+}

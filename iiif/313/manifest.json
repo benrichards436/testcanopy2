@@ -1,0 +1,83 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://benrichards436.github.io/testcanopy/313/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Self Titled"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "Creator"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Elvis Presley"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://benrichards436.github.io/testcanopy/313/5de007483c82fa4d24cc58bf348c35fd/full/300,300/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 300
+        }
+    ],
+    "items": [
+        {
+            "id": "https://benrichards436.github.io/testcanopy/313/canvas/1",
+            "type": "Canvas",
+            "height": 1024,
+            "width": 1024,
+            "label": {
+                "none": [
+                    "Elvis-Presley-Album-Cover-1024x1024"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://benrichards436.github.io/testcanopy/313/5de007483c82fa4d24cc58bf348c35fd/full/300,300/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 300,
+                    "width": 300
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://benrichards436.github.io/testcanopy/313/canvas/1/annopage-1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://benrichards436.github.io/testcanopy/313/canvas/1/annopage-1/anno-1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://benrichards436.github.io/testcanopy/313/canvas/1",
+                            "body": {
+                                "id": "https://benrichards436.github.io/testcanopy/313/5de007483c82fa4d24cc58bf348c35fd/full/1024,1024/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1024,
+                                "width": 1024,
+                                "service": [
+                                    {
+                                        "id": "https://benrichards436.github.io/testcanopy/313/5de007483c82fa4d24cc58bf348c35fd",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
