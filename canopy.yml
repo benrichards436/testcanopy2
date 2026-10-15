@@ -3,7 +3,7 @@ collection:
   - https://benrichards436.github.io/testcanopy/index.json
 
 manifest:
-https://benrichards436.github.io/testcanopy/index.json
+  - https://benrichards436.github.io/testcanopy/index.json
 metadata:
   - Subject
   - Date
